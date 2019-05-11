@@ -4,7 +4,8 @@
   "description": "Just a branch to test and learn about Node.js and Express, the intention is to create a RESTful Api.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
