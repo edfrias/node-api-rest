@@ -23,7 +23,7 @@ function signIn(req, res) {
     if(!user) return res.status(404).send({ message: 'User not found' })
 
     req.user = user
-    res.statys(200).send({
+    res.status(200).send({
       message: 'Logged in successfully',
       token: service.createToken(user)
     })
