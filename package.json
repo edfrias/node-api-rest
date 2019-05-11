@@ -4,6 +4,7 @@
   "description": "Just a branch to test and learn about Node.js and Express, the intention is to create a RESTful Api.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +18,14 @@
   },
   "homepage": "https://github.com/edfrias/node-api-rest#readme",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
-    "express": "^4.16.4"
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.6"
   },
   "devDependencies": {
     "nodemon": "^1.19.0"
